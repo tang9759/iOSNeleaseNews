@@ -1,6 +1,6 @@
 //
 //  main.m
-//  hgfhgf
+//  YXNeleaseNews
 //
 //  Created by AS on 4/13/16.
 //  Copyright © 2016 AS. All rights reserved.

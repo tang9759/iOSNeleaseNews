@@ -1,6 +1,6 @@
 //
-//  hgfhgfUITests.m
-//  hgfhgfUITests
+//  YXNeleaseNewsUITests.m
+//  YXNeleaseNewsUITests
 //
 //  Created by AS on 4/13/16.
 //  Copyright © 2016 AS. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface hgfhgfUITests : XCTestCase
+@interface YXNeleaseNewsUITests : XCTestCase
 
 @end
 
-@implementation hgfhgfUITests
+@implementation YXNeleaseNewsUITests
 
 - (void)setUp {
     [super setUp];
