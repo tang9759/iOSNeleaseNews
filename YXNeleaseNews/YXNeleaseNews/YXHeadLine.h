@@ -17,6 +17,14 @@
  *  头条图片
  */
 @property (nonatomic, copy) NSString *imgsrc;
+/**
+ *  加载新闻头条数据
+ *
+ *  @param success 成功回调
+ *  @param failed  失败回调
+ */
++ (void)loadHeadLineWithSuccess:(void(^)(NSArray *headLines))success WithFailed:(void(^)(NSError *error))failed;
+
 
 + (instancetype)headLineWithDict:(NSDictionary *)dict;
 @end

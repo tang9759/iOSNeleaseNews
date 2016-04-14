@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "YXHeadLine.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +16,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+   [YXHeadLine loadHeadLineWithSuccess:^(NSArray *headLines) {
+       NSLog(@"-----%@",headLines);
+   } WithFailed:^(NSError *error) {
+       
+   }];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
