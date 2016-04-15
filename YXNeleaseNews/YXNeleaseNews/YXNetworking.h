@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <AFNetworking/AFNetworking.h>
+#import <AFNetworking.h>
 @interface YXNetworking : AFHTTPSessionManager
 
 + (instancetype)sharedNetworking;

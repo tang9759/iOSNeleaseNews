@@ -9,14 +9,17 @@
 /* Begin PBXBuildFile section */
 		426602951CBDF3870079F9FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 426602941CBDF3870079F9FE /* main.m */; };
 		426602981CBDF3870079F9FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 426602971CBDF3870079F9FE /* AppDelegate.m */; };
-		4266029B1CBDF3870079F9FE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4266029A1CBDF3870079F9FE /* ViewController.m */; };
-		4266029E1CBDF3870079F9FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4266029C1CBDF3870079F9FE /* Main.storyboard */; };
 		426602A01CBDF3870079F9FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4266029F1CBDF3870079F9FE /* Assets.xcassets */; };
 		426602A31CBDF3870079F9FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 426602A11CBDF3870079F9FE /* LaunchScreen.storyboard */; };
 		426602AE1CBDF3870079F9FE /* YXNeleaseNewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 426602AD1CBDF3870079F9FE /* YXNeleaseNewsTests.m */; };
 		426602B91CBDF3870079F9FE /* YXNeleaseNewsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 426602B81CBDF3870079F9FE /* YXNeleaseNewsUITests.m */; };
 		42CCDCA61CBF4FB200AC65EB /* YXHeadLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CCDCA51CBF4FB200AC65EB /* YXHeadLine.m */; };
 		42CCDCAA1CBF60A100AC65EB /* YXNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CCDCA91CBF60A100AC65EB /* YXNetworking.m */; };
+		42CCDCAD1CBF736800AC65EB /* YXHeadLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CCDCAC1CBF736800AC65EB /* YXHeadLineViewController.m */; };
+		42CCDCB11CBF753100AC65EB /* YXLoopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CCDCB01CBF753100AC65EB /* YXLoopView.m */; };
+		42CCDCB41CBF8A1800AC65EB /* YXLoopViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CCDCB31CBF8A1800AC65EB /* YXLoopViewFlowLayout.m */; };
+		42CCDCB71CBFE04800AC65EB /* YXLoopViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CCDCB61CBFE04800AC65EB /* YXLoopViewCell.m */; };
+		42CCDCB91CBFFAA700AC65EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42CCDCB81CBFFAA700AC65EB /* Main.storyboard */; };
 		58D100C4064F65331B60DE13 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB8187C3F7C3BBB526FF96C4 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -44,9 +47,6 @@
 		426602941CBDF3870079F9FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		426602961CBDF3870079F9FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		426602971CBDF3870079F9FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		426602991CBDF3870079F9FE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4266029A1CBDF3870079F9FE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		4266029D1CBDF3870079F9FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4266029F1CBDF3870079F9FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		426602A21CBDF3870079F9FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		426602A41CBDF3870079F9FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -60,6 +60,15 @@
 		42CCDCA51CBF4FB200AC65EB /* YXHeadLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXHeadLine.m; sourceTree = "<group>"; };
 		42CCDCA81CBF60A100AC65EB /* YXNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXNetworking.h; sourceTree = "<group>"; };
 		42CCDCA91CBF60A100AC65EB /* YXNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXNetworking.m; sourceTree = "<group>"; };
+		42CCDCAB1CBF736800AC65EB /* YXHeadLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXHeadLineViewController.h; sourceTree = "<group>"; };
+		42CCDCAC1CBF736800AC65EB /* YXHeadLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXHeadLineViewController.m; sourceTree = "<group>"; };
+		42CCDCAF1CBF753100AC65EB /* YXLoopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXLoopView.h; sourceTree = "<group>"; };
+		42CCDCB01CBF753100AC65EB /* YXLoopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXLoopView.m; sourceTree = "<group>"; };
+		42CCDCB21CBF8A1800AC65EB /* YXLoopViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXLoopViewFlowLayout.h; sourceTree = "<group>"; };
+		42CCDCB31CBF8A1800AC65EB /* YXLoopViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXLoopViewFlowLayout.m; sourceTree = "<group>"; };
+		42CCDCB51CBFE04800AC65EB /* YXLoopViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXLoopViewCell.h; sourceTree = "<group>"; };
+		42CCDCB61CBFE04800AC65EB /* YXLoopViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXLoopViewCell.m; sourceTree = "<group>"; };
+		42CCDCB81CBFFAA700AC65EB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		DB8187C3F7C3BBB526FF96C4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -123,17 +132,16 @@
 		426602921CBDF3870079F9FE /* YXNeleaseNews */ = {
 			isa = PBXGroup;
 			children = (
+				42CCDCAE1CBF74F300AC65EB /* LoopView */,
 				42CCDCA71CBF55CB00AC65EB /* Tool */,
 				42CCDCA31CBF4F8500AC65EB /* HeadLine */,
 				426602961CBDF3870079F9FE /* AppDelegate.h */,
 				426602971CBDF3870079F9FE /* AppDelegate.m */,
-				426602991CBDF3870079F9FE /* ViewController.h */,
-				4266029A1CBDF3870079F9FE /* ViewController.m */,
-				4266029C1CBDF3870079F9FE /* Main.storyboard */,
 				4266029F1CBDF3870079F9FE /* Assets.xcassets */,
 				426602A11CBDF3870079F9FE /* LaunchScreen.storyboard */,
 				426602A41CBDF3870079F9FE /* Info.plist */,
 				426602931CBDF3870079F9FE /* Supporting Files */,
+				42CCDCB81CBFFAA700AC65EB /* Main.storyboard */,
 			);
 			path = YXNeleaseNews;
 			sourceTree = "<group>";
@@ -169,6 +177,8 @@
 			children = (
 				42CCDCA41CBF4FB200AC65EB /* YXHeadLine.h */,
 				42CCDCA51CBF4FB200AC65EB /* YXHeadLine.m */,
+				42CCDCAB1CBF736800AC65EB /* YXHeadLineViewController.h */,
+				42CCDCAC1CBF736800AC65EB /* YXHeadLineViewController.m */,
 			);
 			name = HeadLine;
 			sourceTree = "<group>";
@@ -180,6 +190,19 @@
 				42CCDCA91CBF60A100AC65EB /* YXNetworking.m */,
 			);
 			name = Tool;
+			sourceTree = "<group>";
+		};
+		42CCDCAE1CBF74F300AC65EB /* LoopView */ = {
+			isa = PBXGroup;
+			children = (
+				42CCDCAF1CBF753100AC65EB /* YXLoopView.h */,
+				42CCDCB01CBF753100AC65EB /* YXLoopView.m */,
+				42CCDCB21CBF8A1800AC65EB /* YXLoopViewFlowLayout.h */,
+				42CCDCB31CBF8A1800AC65EB /* YXLoopViewFlowLayout.m */,
+				42CCDCB51CBFE04800AC65EB /* YXLoopViewCell.h */,
+				42CCDCB61CBFE04800AC65EB /* YXLoopViewCell.m */,
+			);
+			name = LoopView;
 			sourceTree = "<group>";
 		};
 		5B3B9A2BDFF86C193470E0A6 /* Frameworks */ = {
@@ -300,9 +323,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42CCDCB91CBFFAA700AC65EB /* Main.storyboard in Resources */,
 				426602A31CBDF3870079F9FE /* LaunchScreen.storyboard in Resources */,
 				426602A01CBDF3870079F9FE /* Assets.xcassets in Resources */,
-				4266029E1CBDF3870079F9FE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,11 +398,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4266029B1CBDF3870079F9FE /* ViewController.m in Sources */,
 				426602981CBDF3870079F9FE /* AppDelegate.m in Sources */,
+				42CCDCB71CBFE04800AC65EB /* YXLoopViewCell.m in Sources */,
+				42CCDCB11CBF753100AC65EB /* YXLoopView.m in Sources */,
+				42CCDCAD1CBF736800AC65EB /* YXHeadLineViewController.m in Sources */,
 				42CCDCA61CBF4FB200AC65EB /* YXHeadLine.m in Sources */,
 				426602951CBDF3870079F9FE /* main.m in Sources */,
 				42CCDCAA1CBF60A100AC65EB /* YXNetworking.m in Sources */,
+				42CCDCB41CBF8A1800AC65EB /* YXLoopViewFlowLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,14 +441,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4266029C1CBDF3870079F9FE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4266029D1CBDF3870079F9FE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		426602A11CBDF3870079F9FE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
